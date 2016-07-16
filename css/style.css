@@ -1,0 +1,121 @@
+p {
+  font-size: 16px;
+}
+
+.section-center-demo .container-content {
+  padding: 50px 180px 50px 180px;
+  margin-left: auto;
+  margin-right: auto; }
+  @media screen and (max-width: 800px) {
+    .section-center-demo .container-content {
+      padding: 10px 20px 10px 20px; } }
+
+.photo-panel-circle-green {
+  width: 276px;
+  height: 276px; }
+
+.nav-no-margin {
+  margin: 0px; }
+
+.navbar-home {
+  background-color: white;
+  border-bottom: 0px; }
+  .navbar-home .navbar-header a {
+    color: #232323;
+    font-size: 24px;
+    font-weight: bold; }
+  .navbar-home .navbar-nav a {
+    font-size: 18px;
+    color: #232323; }
+  .navbar-home .navbar-nav a.navbar-li::before {
+    content: "";
+    width: 0px;
+    padding-top: 30px;
+    position: absolute;
+    border-bottom: 4px solid #348899;
+    -webkit-transition: width 0.5s;
+    /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s; }
+  .navbar-home .navbar-nav li.active a.navbar-li::before {
+    width: 70%; }
+  .navbar-home .navbar-nav :hover {
+    background-color: transparent; }
+    .navbar-home .navbar-nav :hover a.navbar-li::before {
+      width: 70%; }
+  .navbar-home .navbar-toggle .icon-bar {
+    background-color: #232323; }
+
+.section-greet {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/Blurred-backgrounds.jpg");
+  opacity: 0.8;
+  filter: alpha(opacity=20); }
+  .section-greet h1, .section-greet h2 {
+    color: #ffffff; }
+  .section-greet .greet-block {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    text-align: center; }
+    @media screen and (min-width: 800px) {
+      .section-greet .greet-block h1 {
+        font-size: 60px; } }
+    @media screen and (max-width: 800px) {
+      .section-greet .greet-block h1 {
+        font-size: 30px;
+        text-align: center; }
+      .section-greet .greet-block h2 {
+        font-size: 20px; } }
+
+.briefintro-block-headphoto {
+  width: 256px;
+  height: 256px; }
+
+.skill-list li {
+  list-style-type: none;
+  font-size: 24px; }
+
+.skill-list .skill-title {
+  display: inline-block;
+  width: 60%; }
+
+.skill-list .skill-score {
+  color: #DFE0E0; }
+  .skill-list .skill-score .filled {
+    color: #348899; }
+
+@media screen and (min-width: 800px) {
+  .skills-block {
+    padding: 50px 150px; } }
+
+.footer {
+  padding: 5vh 5vw 5vh 5vw;
+  background-color: #232323;
+  color: white; }
+
+.bg-shadow-black {
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.bg-gray {
+  background-color: #EEEEEE; }
+
+.bg-white {
+  background-color: white; }
+
+.bg-dark {
+  background-color: #232323; }
+
+.bg-brown-light {
+  background-color: #F3EFE0; }
+
+.project {
+  box-shadow: 0px 3px 3px #888888;
+  -webkit-transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s; }
+
+.project:hover {
+  box-shadow: 7px 7px 7px #888888; }
+.with-bottom {
+  border-bottom: 1px solid #EEEEEE;
+  padding-bottom: 7px; }
