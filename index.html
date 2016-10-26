@@ -185,7 +185,6 @@
 
            $(document).scroll(function() {
                navbarControl();
-               fadeControl();
            });
 
             function navbarControl(){
@@ -196,14 +195,6 @@
                     $('nav').addClass('nav-transparent');
                 }
             };
-
-            function fadeControl(){
-              var currentPosition = $('body').scrollTop();
-              $('.fade').each(function() {
-                var objectBottom = $(this).offset().top + $(this).outerHeight();
-                console.log($(this).offset().top);
-              });
-            }
         });
     </script>
 </body>
